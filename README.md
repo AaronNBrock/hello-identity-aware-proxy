@@ -17,6 +17,7 @@ terraform apply -var-file=your-name.tfvars
 ```bash
 gcloud compute ssh iap-test
 ```
+Note: This assumes gcloud is already configured to your project & you are logged in to the member specified in `your-name.tfvars`
 1. Finally, destroy resources with:
 ```
 terraform destroy -var-file=your-name.tfvars 
