@@ -7,8 +7,6 @@ provider "google" {
 // Private VPC
 resource "google_compute_network" "main" {
   name = "iap-test-network"
-
-  // delete_default_routes_on_create = true
 }
 
 // Cloud NAT
